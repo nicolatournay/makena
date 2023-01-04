@@ -1,0 +1,18 @@
+.card {
+    width: 80%;
+    align-self: center;
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card-content {
+    background-color: #ffffff;
+    padding: 39px;
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+        color: $blue-text;
+    }
+}
