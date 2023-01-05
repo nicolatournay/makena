@@ -1,0 +1,25 @@
+.footer-links {
+    padding: 45px 39.2px 22.5px;
+    background-color: #213375;
+    color: #ffffff;
+    small {
+        color: #7c85a5;
+    }
+}
+
+.disclaimer {
+    padding: 45px 39.2px;
+    background-color: #1b2a61;
+    color: #7c85a5;
+    font-size: .75rem;
+    line-height: 1.9;
+    span {
+        display: block;
+        margin: 0 0 22.5px;
+        text-transform: uppercase;
+    }
+}
+
+.footer-img {
+    display: none;
+}

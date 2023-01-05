@@ -1,14 +1,4 @@
-.welcome {
-    background: url(../../img/palm-bg.jpg) center/cover;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-}
-
-.sustainable-content {
-    background-color: #fff;
-}
+// Général
 
 .section-wrapper {
     color: $blue-text;
@@ -24,18 +14,32 @@
     }
 }
 
-.sustainable img {
-    width: 100%;
-    height: 50vh;
-    display: block;
-}
-
 .section-bg {
     background-color: $grey-bg;
     img {
         width: 100%;
         display: block;
     }
+}
+
+// Sections
+
+.welcome {
+    background: url(../../img/palm-bg.jpg) center/cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sustainable-content {
+    background-color: #fff;
+}
+
+.sustainable img {
+    width: 100%;
+    height: 50vh;
+    display: block;
 }
 
 .aloha-paradise {
