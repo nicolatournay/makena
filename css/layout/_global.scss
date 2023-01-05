@@ -34,6 +34,7 @@
     background-color: $grey-bg;
     img {
         width: 100%;
+        display: block;
     }
 }
 
@@ -48,4 +49,17 @@
         -moz-box-shadow: 40px 40px 0px 0px rgba(164,173,180,0.5);
         box-shadow: 40px 40px 0px 0px rgba(164,173,180,0.5);
     }
+}
+
+.island-living {
+    h2 {
+       margin: 0 0 18.75px; 
+    }
+    p {
+        margin: 0 0 30px;  
+    }
+}
+
+.island-content {
+    margin: 45px 0 0;
 }
