@@ -30,6 +30,10 @@
     height: 90vh;
     display: flex;
     justify-content: center;
+    @media screen and (min-width: 500px) {
+        height: 120vh;
+        padding: 20vh 0;
+    }
 }
 
 .sustainable-content {

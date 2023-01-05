@@ -1,9 +1,16 @@
 .card {
     width: 80%;
     align-self: center;
+    position: relative;
     img {
         width: 100%;
         display: block;
+    }
+    @media screen and (min-width: 500px) {
+        img {
+            height: 80vh;
+            width: auto;
+        }
     }
 }
 
@@ -14,5 +21,27 @@
         font-size: 26px;
         line-height: 36px;
         color: $blue-text;
+    }
+    @media screen and (min-width: 500px) {
+        width: 50%;
+        height: 50vh;
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+        right: 0;
+        padding: 5rem 7rem 5rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2 {
+            font-size: 37px;
+            line-height: 1.4;
+        }
+        span {
+            margin: 0;
+        }
+        a {
+            align-self: flex-start;
+        }
     }
 }
